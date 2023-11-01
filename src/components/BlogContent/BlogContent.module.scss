@@ -1,0 +1,22 @@
+.posts{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background: #3C4F65;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 20px;
+  color: #E6F5FF;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  p{
+    text-align: left;
+  }
+}
+.postTitle{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
